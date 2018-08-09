@@ -13,6 +13,6 @@ public class Kolejka {
             System.out.println(clients.peek() + "proszony do gabinetu");
             System.out.println(clients.poll() + "obsluzony");
         }
-
+        System.out.println(clients);
     }
 }
